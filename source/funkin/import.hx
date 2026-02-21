@@ -12,6 +12,8 @@ import funkin.options.Options;
 import funkin.game.PlayState;
 import funkin.backend.scripting.EventManager;
 
+import funkin.backend.FunkinCamera;
+
 import openfl.utils.Assets;
 
 import flixel.FlxSprite;

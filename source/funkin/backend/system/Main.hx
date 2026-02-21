@@ -131,6 +131,8 @@ class Main extends Sprite
 
 		FlxG.fixedTimestep = false;
 
+		untyped FlxG.cameras = new funkin.backend.FunkinCameraFrontEnd();
+
 		FlxG.scaleMode = scaleMode = new FunkinRatioScaleMode();
 
 		Conductor.init();

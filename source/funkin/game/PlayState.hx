@@ -36,6 +36,8 @@ import funkin.backend.week.WeekData;
 import funkin.savedata.FunkinSave;
 import haxe.io.Path;
 
+import funkin.backend.FunkinCamera;
+
 using StringTools;
 
 @:access(flixel.text.FlxText.FlxTextFormatRange)
